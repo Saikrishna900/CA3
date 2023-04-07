@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/vadla/Desktop/Java/GithubProject/.idea(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="https://github.com/"/>
+    <classes>
+      <class name="org.example.AppTest">
+        <methods>
+          <include name="close"/>
+          <include name="setUpDriver"/>
+          <include name="googleTest"/>
+        </methods>
+      </class> <!-- org.example.AppTest -->
+    </classes>
+  </test> <!-- C:/Users/vadla/Desktop/Java/GithubProject/.idea(failed) -->
+  <test thread-count="5" name="test1(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="url" value="https://github.com/"/>
+    <classes>
+      <class name="org.example.AppTest">
+        <methods>
+          <include name="close"/>
+          <include name="setUpDriver"/>
+          <include name="googleTest"/>
+        </methods>
+      </class> <!-- org.example.AppTest -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/vadla/Desktop/Java/GithubProject/.idea">
+        <parameter name="browser" value="firefox"></parameter>
+        <parameter name="url" value="https://github.com/"></parameter>
+        <classes>
+            <class name="org.example.AppTest">
+
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true"
+          name="test1">
+        <parameter name="browser" value="Chrome"></parameter>
+        <parameter name="url" value="https://github.com/"></parameter>
+        <classes>
+            <class name="org.example.AppTest">
+
+            </class>
+        </classes>
+    </test>
+</suite>
